@@ -1,0 +1,12 @@
+int searchInsert(int*num,int numSize,int target){
+int i,a=n;
+for(i=0;i<n;i++)
+{
+ if(num[i]>=t)
+{
+a=i;
+}
+
+}
+return a;
+} 

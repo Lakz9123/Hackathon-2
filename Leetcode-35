@@ -1,0 +1,9 @@
+int searchInsert(int* num, int n, int t) {
+    int i;
+    for (i = 0; i < n; i++) {
+        if (num[i] >= t) {
+            return i; 
+        }
+    }
+    return n; 
+}
